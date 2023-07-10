@@ -1,6 +1,6 @@
 ---
 description: >-
-  TonVault - decentralized storage protocol overview
+  Secure Vault for encrypted data powered by Ton Storage.
 ---
 
 # Overview
