@@ -1,14 +1,15 @@
 ---
 description: >-
-  TonVault roadmap and milestones.
+  Ton Vault's roadmap and milestones
 ---
 
 # 2023
-  - Web app (MVP) [x]
-  - Public Endpoint [x]
-  - Opensource TonVault's node []
+  - Web app beta (MVP) [x]
+  - Public endpoint [x]
+  - Open-source Ton Vault node []
+  - More wallets to support []
   - Premium subscription plan []
 # 2024
   - Mobile app []
   - Desktop app []
-  - Cloud platform based on TonVault's overlay network []
+  - Cloud platform based on Ton Vault's overlay network []
