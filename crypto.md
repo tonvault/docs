@@ -10,7 +10,8 @@ description: >-
 
 >Message to be signed with user's private key contains SHA256 of data to be encrypted:
 ``--TON VAULT KEY GENERATION MESSAGE--\n${rawContentHash}``
+This acts as a source of entropy for the encryption key, and re-using is prevented by including timestamp as initialization vector.
 If the user's wallet doesn't support signing UTF-8 strings, this message would be displayed as human-unreadable HEX string.
-**Warning** Signature compromise would result in signer's stored data leak.
+**Warning** Compromising a signature will leak the stored data of the signer. Users should avoid signing arbitrary data from untrusted resources.
 
 >The `rawContentHash` hash is stored alongside encrypted data in the same Bag of Cells (BoC) to maintain ability to decrypt file without Ton Vault app. 
