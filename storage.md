@@ -5,22 +5,12 @@ description: >-
 
 # Storage
 
->Ton Vault is powered by [TON Storage](https://github.com/.ton-community/ton-docs/tree/main/docs/participate/ton-storage), allowing anyone to host and share files by their ID's. Ton Vault ensures the encryption of user data both on client side and on node server. The latter  is performed with user-provided key, preventing data leaks and allowing serverless decryption.
+>Ton Vault is powered by [TON Storage](https://github.com/.ton-community/ton-docs/tree/main/docs/participate/ton-storage), allowing anyone to host and share files by their ID's. Ton Vault ensures the encryption of user data both on client and server sides. The latter is performed with a user-provided key, preventing data leaks and allowing serverless decryption.
 
->Decentralized storage model provides an ability to participate in data storing an sharing to harden against service unavailability. To achieve that, TON Storage [daemon](https://docs.ton.org/participate/ton-storage/storage-daemon) should be used. The latest user's file could be requested from the Ton Vault node using user's public key:
+>Decentralized storage model provides an ability to participate in data storing sharing to harden against service unavailability. To achieve that, [TON Storage daemon](https://docs.ton.org/participate/ton-storage/storage-daemon) should be used. The latest user's file could be requested from the Ton Vault node using user's public key:
 
-```
-axios({
-  method: 'get',
-  url: 'tonVaultApiUrl',
-  data: {
-    Authorization: `Bearer ${pubKey}`,
-  },
-  responseType: {
-    result: string,
-    code: number
-  }
-});
+```bash
+ curl <NODE_URL>/api/get/:publicKey
 ```
 
 >To decrypt user data in absence of Ton Vault application, one should generate 2 encryption keys and use them in order, see more in [Crypto](crypto.md) section.
