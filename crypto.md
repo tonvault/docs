@@ -1,6 +1,6 @@
 ---
 description: >-
-  TonVault's cryptography protocol overview
+  Ton Vault's cryptography protocol overview
 ---
 
 # Crypto
