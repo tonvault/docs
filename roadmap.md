@@ -1,6 +1,6 @@
 ---
 description: >-
-  Ton  Vault's roadmap and milestones
+  Ton Vault's roadmap and milestones
 ---
 
 # 2023
