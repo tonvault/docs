@@ -15,6 +15,6 @@ description: >-
 
 > The encryption/decryption layer is entirely built upon the user's selected TON Wallet.
 
-> Utilizing the Ton Storage protocol and an additional encryption layer, users can exchange data amongst themselves, thereby creating a decentralized cloud.
+> Utilizing the Ton Storage protocol and an additional encryption layer, users can exchange data amongst each other, thereby creating a decentralized cloud.
 
 > Check our [roadmap](roadmap.md) for features that are currently in development.
