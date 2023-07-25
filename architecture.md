@@ -1,3 +1,8 @@
+---
+description: >-
+  Ton Vault Architecture Overview
+---
+
 # Architecture Overview
 
 ![Architecture](ton-vault.png)
